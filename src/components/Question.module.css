@@ -1,0 +1,10 @@
+.question__container {
+  height: 350px;
+  width: 350px;
+  background-color: rgb(238, 234, 234);
+  margin: auto;
+  margin-top: 20px;
+}
+.question__container__dark {
+  background-color: #566573;
+}

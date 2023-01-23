@@ -1,0 +1,19 @@
+.actions__container {
+  height: 100px;
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.actions__container > button {
+  padding: 5px 15px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.actions__container .dark__action__btn {
+  background-color: green;
+  color: #fff;
+}

@@ -1,0 +1,23 @@
+.best__score__container {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+.best__score__container > table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.best__score__container > table td {
+  border-bottom: 1px solid black;
+  padding: 5px 0;
+}
+.best__score__container .highest {
+  color: orange;
+}
+.best__score__container .table__dark__mode {
+  color: #fff;
+}
+.best__score__container .table__dark__mode td {
+  border-bottom: 1px solid grey;
+}

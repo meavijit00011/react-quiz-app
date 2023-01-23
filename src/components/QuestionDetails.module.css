@@ -1,0 +1,35 @@
+.question__details__container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+}
+.question__details__container > p {
+  text-align: center;
+  font-size: 18px;
+}
+.question__details__container .p__dark {
+  color: #fff;
+}
+.question__details__container .select__answer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.question__details__container .row1,
+.row2 {
+  display: flex;
+  justify-content: space-around;
+}
+.question__details__container .select__answer button {
+  cursor: pointer;
+  padding: 5px 0px;
+  width: 100px;
+}
+
+.question__details__container .select__answer .active {
+  background-color: blueviolet;
+  border: none;
+  color: #fff;
+}

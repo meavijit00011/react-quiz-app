@@ -1,0 +1,33 @@
+.score__modal__container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score__modal__container .show__score {
+  height: 200px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+}
+.score__modal__container .show__score p {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 500;
+}
+.score__modal__container .show__score button {
+  padding: 5px;
+  outline: none;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}

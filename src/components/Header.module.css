@@ -1,0 +1,13 @@
+.header__container {
+  height: 50px;
+  border-bottom: 1px solid #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__container > h2 {
+  width: fit-content;
+}
+.header__container .dark__h2 {
+  color: #fff;
+}
